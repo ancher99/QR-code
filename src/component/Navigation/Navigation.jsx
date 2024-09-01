@@ -6,10 +6,10 @@ export const Navigation = () =>{
 
     return (
         <div className={style.container}>
-            <Link to={'/generate'} className={style.text}>Генерировать QR</Link>
-            <Link to={'/reader'} className={style.text}>Сканировать QR</Link>
-            <Link to={'/generateHistory'} className={style.text}>Историян генерирования</Link>
-            <Link to={'/readHistory'} className={style.text}>История сканирования</Link>
+            <Link to={'/QR-code/generate'} className={style.text}>Генерировать QR</Link>
+            <Link to={'/QR-code/reader'} className={style.text}>Сканировать QR</Link>
+            <Link to={'/QR-code/generateHistory'} className={style.text}>Историян генерирования</Link>
+            <Link to={'/QR-code/readHistory'} className={style.text}>История сканирования</Link>
         </div>
     )
 }

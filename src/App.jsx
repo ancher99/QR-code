@@ -13,10 +13,10 @@ export const App = () =>{
             <Navigation />
 
             <Routes>
-            <Route path="/generate" element={<QrCodeGenerate />} />
-            <Route path="/reader" element={<QrCodeReader />} />
-            <Route path="/generateHistory" element={<GenerateHistory />} />
-            <Route path="/readHistory" element={<ReadHistory />} />
+            <Route path="/QR-code/generate" element={<QrCodeGenerate />} />
+            <Route path="/QR-code/reader" element={<QrCodeReader />} />
+            <Route path="/QR-code/generateHistory" element={<GenerateHistory />} />
+            <Route path="/QR-code/readHistory" element={<ReadHistory />} />
             </Routes>
         </div>
 
